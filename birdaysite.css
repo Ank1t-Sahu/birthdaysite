@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background: linear-gradient(#a2d2ff, #efb0c9);
+    color: #ffffff;
+    
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bff-img{
+    border: 5px solid #efb0c9;
+    width: 150px;
+    border-radius: 50%;
+}
+h1 ,h2 ,h4 ,h3 ,p{
+    text-shadow: 0px 0px 1px black;
+}
+#age{
+    background: #efb0c9;
+}
+#date{
+    background: #efb0c9;
+}
+.gift-img{
+    background-image: url(https://img.magnific.com/free-photo/red-gift-box-with-bow_23-2147962351.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.gift-section{
+    margin: 50px;
+}
+#gift-img-happy:hover{
+    background-image: url(https://media.tenor.com/C7Thyp1xZjsAAAAM/so-excited.gif);
+}
+#gift-img-react:hover{
+    background-image: url(https://i.pinimg.com/originals/e5/24/fe/e524fe7b5e0b52bb465b8c5e3707fe4a.gif);
+}
+#gift-img-badass:hover{
+    background-image: url(https://gifdb.com/images/featured/chuck-norris-thumbs-up-9350920.gif);
+}
+#footer{
+    width: 600px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
